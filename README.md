@@ -2,8 +2,9 @@
 
 ## Tabla de Contenido<!-- omit in toc -->
 - [Primeros pasos en JavaScript](#primeros-pasos-en-javascript)
-  - [Variables:](#variables)
-  - [Strings:](#strings)
+  - [Variables](#variables)
+  - [Strings](#strings)
+  - [Números](#números)
   
 ## Primeros pasos en JavaScript
 
@@ -23,3 +24,17 @@ Para concatenar dos strings se utiliza el símbolo (+)
 ```js
 var nombreCompleto = nombre + ’ ’ + apellido
 ```
+
+### Números
+Operadores matemáticos:
+
+* suma ( + )
+* resta ( - )
+* multiplicación
+* división
+
+En operaciones con decimales debemos realizar operaciones adicionales para conseguir un resultado preciso.
+```js
+var total = ( precioDeVino * 100 * 3) / 100
+```
+Para redondear una operación se utiliza la función: Math.round
