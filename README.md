@@ -9,6 +9,7 @@
   - [El alcance de las funciones](#el-alcance-de-las-funciones)
   - [Objetos](#objetos)
   - [Desestructurar objetos](#desestructurar-objetos)
+  - [Parámetros como referencia o como valor](#parámetros-como-referencia-o-como-valor)
   
 ## Primeros pasos en JavaScript
 
@@ -70,3 +71,8 @@ Las últimas versiones de JavaScript nos permiten desglosar el objeto para acced
 Otra forma de acceder a los atributos de los objetos es la desestructurización de los mismos.
 
 Para no duplicar las variables introducir el nombre de la variable como parámetro de la segunda variable. Ej var{nombre} = persona
+
+### Parámetros como referencia o como valor
+Javascript se comporta de manera distinta cuando le pasamos un objeto como parámetro.
+
+Cuando los objetos se pasan como una referencia, estos se modifican fuera de la función. Para solucionar esto se puede crear un objeto diferente. Esto lo podemos hacer colocando tres puntos antes del nombre. Ej …persona.
