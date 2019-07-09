@@ -8,6 +8,7 @@
   - [Funciones](#funciones)
   - [El alcance de las funciones](#el-alcance-de-las-funciones)
   - [Objetos](#objetos)
+  - [Desestructurar objetos](#desestructurar-objetos)
   
 ## Primeros pasos en JavaScript
 
@@ -64,3 +65,8 @@ Un atributo se compone de una clave (key) y un valor (value), que se separan ent
 Escribir el nombre de un objeto separado por un punto del nombre de un atributo, nos permite acceder al valor de dicho atributo para ese objeto. Un objeto también se puede pasar como atributo en una función.
 
 Las últimas versiones de JavaScript nos permiten desglosar el objeto para acceder únicamente al atributo que nos interesa. Esto se consigue encerrando el nombre del atributo entre llaves { }.
+
+### Desestructurar objetos
+Otra forma de acceder a los atributos de los objetos es la desestructurización de los mismos.
+
+Para no duplicar las variables introducir el nombre de la variable como parámetro de la segunda variable. Ej var{nombre} = persona
