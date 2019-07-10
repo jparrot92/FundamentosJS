@@ -10,6 +10,7 @@
   - [Objetos](#objetos)
   - [Desestructurar objetos](#desestructurar-objetos)
   - [Parámetros como referencia o como valor](#parámetros-como-referencia-o-como-valor)
+  - [Comparaciones en JavaScript](#comparaciones-en-javascript)
   
 ## Primeros pasos en JavaScript
 
@@ -76,3 +77,16 @@ Para no duplicar las variables introducir el nombre de la variable como parámet
 Javascript se comporta de manera distinta cuando le pasamos un objeto como parámetro.
 
 Cuando los objetos se pasan como una referencia, estos se modifican fuera de la función. Para solucionar esto se puede crear un objeto diferente. Esto lo podemos hacer colocando tres puntos antes del nombre. Ej …persona.
+
+### Comparaciones en JavaScript
+Existen varias maneras de comparar variables u objetos dentro de javascript. En el primer ejemplo le asignamos a X un valor numérico y a Y un string. Para poder compararlos debemos agregar dos signos de igual (==). Esto los convierte al mismo tipo de valor y permite que se puedan comparar.
+
+Cuando realizamos operaciones es recomendable usar tres símbolos de igual (===). Esto permite que JavasScript no iguale las variables que son de distinto tipo. Te recomendamos que uses el triple igual siempre que estés comparando variables.
+
+Existen cinco tipos de datos que son primitivos:
+
+1. Boolean
+2. Null
+3. Undefined
+4. Number
+5. String
