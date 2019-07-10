@@ -13,6 +13,7 @@
   - [Comparaciones en JavaScript](#comparaciones-en-javascript)
 - [Estructuras de Control y Funciones](#estructuras-de-control-y-funciones)
   - [Condicionales](#condicionales)
+  - [Funciones que retornan valores](#funciones-que-retornan-valores)
   
 ## Primeros pasos en JavaScript
 
@@ -99,3 +100,12 @@ Existen cinco tipos de datos que son primitivos:
 En esta clase empezaremos a trabajar con estructuras de control, éstas nos permiten decidir el flujo de nuestro código.
 
 Empezaremos con los condiconales. Los condicionales nos permiten decidir si un código se ejecuta o no. También introducimos un nuevo tipo de datos primitivos: el booleano, que determina si un valor es falso o verdadero. Mediante un condicional (if) decidiremos si se ejecuta una parte de nuestro código cuando se cumpla o no cierta condición.
+
+### Funciones que retornan valores
+En esta clase seguiremos trabajando con condicionales para desglosar las funciones en funciones más pequeñas que retornen un valor.
+
+Debemos de tener en cuenta que el número 18 esta incluido dentro del rango de edad. Para ello utilizamos los símbolos >=.
+
+Return detiene la ejecución de una función y devuelve el valor de esa función.
+
+Las variables definidas con const se comportan como las variables, excepto que no pueden ser reasignadas. Las constantes pueden ser declaradas en mayúsculas o minúsculas. Pero por convención, para distinguirlas del resto de variables, se escribe todo en mayusculas.
