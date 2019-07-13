@@ -18,6 +18,7 @@
   - [Estructuras repetitivas: for](#estructuras-repetitivas-for)
   - [Estructuras repetitivas: while](#estructuras-repetitivas-while)
   - [Estructuras repetitivas: do-while](#estructuras-repetitivas-do-while)
+  - [Condicional múltiple: switch](#condicional-múltiple-switch)
 
   
 ## Primeros pasos en JavaScript
@@ -133,3 +134,10 @@ En ocasiones nuestro código puede fallar por errores de syntaxis o errores lóg
 
 ### Estructuras repetitivas: do-while
 Otra estructura repetitiva es el do-while. A diferencia de la instrucción while, un bucle do…while se ejecuta una vez antes de que se evalúe la expresión condicional.
+
+### Condicional múltiple: switch
+Switch se utiliza para realizar diferentes acciones basadas en múltiples condiciones.
+
+Prompt, muestra un cuadro de mensaje que le pide al usuario que ingrese algúna información.
+
+Break, sirve para que el browser se salte un bucle.
