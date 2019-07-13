@@ -15,6 +15,10 @@
   - [Condicionales](#condicionales)
   - [Funciones que retornan valores](#funciones-que-retornan-valores)
   - [Arrow functions](#arrow-functions)
+  - [Estructuras repetitivas: for](#estructuras-repetitivas-for)
+  - [Estructuras repetitivas: while](#estructuras-repetitivas-while)
+  - [Estructuras repetitivas: do-while](#estructuras-repetitivas-do-while)
+
   
 ## Primeros pasos en JavaScript
 
@@ -115,3 +119,17 @@ Las variables definidas con const se comportan como las variables, excepto que n
 Las Arrow Functions permiten una nomenclatura más corta para escribir expresiones de funciones. Este tipo de funciones deben definirse antes de ser utilizadas.
 
 Al escribir las Arrow Functions no es necesario escribir la palabra function, la palabra return, ni las llaves.
+
+### Estructuras repetitivas: for
+El bucle for, se utiliza para repetir una o más instrucciones un determinado número de veces.
+
+Para escribir un bucle for se coloca la palabra for seguida de paréntesis y llaves.
+Ej. for( ){ }. Dentro de los paréntesis irán las condiciones para ejecutar el bucle, y dentro las llaves irán las instrucciones que se deben repetir.
+
+### Estructuras repetitivas: while
+While se ejecuta únicamente mientras la condición que se está evaluando es verdadera.
+
+En ocasiones nuestro código puede fallar por errores de syntaxis o errores lógicos. En caso de que quieras verificar tu código, debes utilizar un debugger. El código se detiene cada vez que lee esta palabra.
+
+### Estructuras repetitivas: do-while
+Otra estructura repetitiva es el do-while. A diferencia de la instrucción while, un bucle do…while se ejecuta una vez antes de que se evalúe la expresión condicional.
