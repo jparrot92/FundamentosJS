@@ -20,6 +20,7 @@
   - [Estructuras repetitivas: do-while](#estructuras-repetitivas-do-while)
 - [Arrays](#arrays)
   - [Introducción a arrays](#introducción-a-arrays)
+  - [Filtrar un array](#filtrar-un-array)
   
 ## Primeros pasos en JavaScript
 
@@ -139,3 +140,10 @@ Otra estructura repetitiva es el do-while. A diferencia de la instrucción while
 
 ### Introducción a arrays
 Los arrays son estructuras que nos permiten organizar elementos dentro de una collección. Estos elementos pueden ser números, strings, booleanos, objetos, etc.
+
+### Filtrar un array
+Para filtrar siempre necesitamos establecer una condición. 
+
+El método filter ( ) crea una nueva matriz con todos los elementos que pasan la prueba implementada por la función proporcionada.
+
+Recuerda que si no hay elementos que pasen la prueba, filter devuelve un array vacío.
