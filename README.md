@@ -21,6 +21,7 @@
 - [Arrays](#arrays)
   - [Introducción a arrays](#introducción-a-arrays)
   - [Filtrar un array](#filtrar-un-array)
+  - [Transformar un array](#transformar-un-array)
   
 ## Primeros pasos en JavaScript
 
@@ -147,3 +148,6 @@ Para filtrar siempre necesitamos establecer una condición.
 El método filter ( ) crea una nueva matriz con todos los elementos que pasan la prueba implementada por la función proporcionada.
 
 Recuerda que si no hay elementos que pasen la prueba, filter devuelve un array vacío.
+
+### Transformar un array
+El método map() itera sobre los elementos de un array en el orden de inserción y devuelve array nuevo con los elementos modificados.
