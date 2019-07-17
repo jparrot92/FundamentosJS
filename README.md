@@ -23,6 +23,8 @@
   - [Filtrar un array](#filtrar-un-array)
   - [Transformar un array](#transformar-un-array)
   - [Reducir un array a un valor](#reducir-un-array-a-un-valor)
+- [Programación Orientada a Objetos en JavaScript](#programación-orientada-a-objetos-en-javascript)
+  - [Cómo funcionan las clases en JavaScript](#cómo-funcionan-las-clases-en-javascript)
   
 ## Primeros pasos en JavaScript
 
@@ -155,3 +157,12 @@ El método map() itera sobre los elementos de un array en el orden de inserción
 
 ### Reducir un array a un valor
 El método reduce() nos permite reducir, mediante una función que se aplica a cada uno de los elemento del array, todos los elementos de dicho array, a un valor único.
+
+## Programación Orientada a Objetos en JavaScript
+
+### Cómo funcionan las clases en JavaScript
+Las clases son funciones cuya sintaxis tiene dos componentes:
+* expresiones
+* declaraciones
+
+Dentro de una función, el valor de this depende de cómo es llamada ésta.
