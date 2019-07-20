@@ -25,6 +25,7 @@
   - [Reducir un array a un valor](#reducir-un-array-a-un-valor)
 - [Programación Orientada a Objetos en JavaScript](#programación-orientada-a-objetos-en-javascript)
   - [Cómo funcionan las clases en JavaScript](#cómo-funcionan-las-clases-en-javascript)
+  - [Modificando un prototipo](#modificando-un-prototipo)
   
 ## Primeros pasos en JavaScript
 
@@ -166,3 +167,6 @@ Las clases son funciones cuya sintaxis tiene dos componentes:
 * declaraciones
 
 Dentro de una función, el valor de this depende de cómo es llamada ésta.
+
+### Modificando un prototipo
+JavaScript funciona con una estructura orientada a objetos y cada objeto tiene una propiedad privada que mantiene un enlace a otro objeto llamado prototipo.
