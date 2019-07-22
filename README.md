@@ -16,6 +16,7 @@
   - [Funciones que retornan valores](#funciones-que-retornan-valores)
   - [Arrow functions](#arrow-functions)
   - [El contexto de las funciones: quién es this](#el-contexto-de-las-funciones-quién-es-this)
+  - [Funciones como parámetros](#funciones-como-parámetros)
   - [Estructuras repetitivas: for](#estructuras-repetitivas-for)
   - [Estructuras repetitivas: while](#estructuras-repetitivas-while)
   - [Estructuras repetitivas: do-while](#estructuras-repetitivas-do-while)
@@ -134,6 +135,9 @@ Al escribir las Arrow Functions no es necesario escribir la palabra function, la
 El error del contexto de this en javascript es uno de los errores más comunes.
 
 Recuerda que dentro de la arrow function, this está haciendo referencia al espacio global, a windows.
+
+### Funciones como parámetros
+En JavaScript, los parámetros de funciones son por defecto undefined. De todos modos, en algunas situaciones puede ser útil colocar un valor por defecto diferente que lo evalúe como verdadero.
 
 ### Estructuras repetitivas: for
 El bucle for, se utiliza para repetir una o más instrucciones un determinado número de veces.
