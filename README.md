@@ -33,6 +33,7 @@
 - [Asincronismo](#asincronismo)
   - [Cómo funciona el asincronismo en JavaScript](#cómo-funciona-el-asincronismo-en-javascript)
   - [Cómo funciona el tiempo en JavaScript](#cómo-funciona-el-tiempo-en-javascript)
+  - [Callbacks](#callbacks)
   
 ## Primeros pasos en JavaScript
 
@@ -207,3 +208,6 @@ Si se acumulan funciones en la cola de tareas y JavaScript se encuentra ejecutan
 
 ### Cómo funciona el tiempo en JavaScript
 En principio, cualquier tarea que se haya delegado al navegador a través de un callback, deberá esperar hasta que todas las instrucciones del programa principal se hayan ejecutado. Por esta razón el tiempo de espera definido en funciones como setTimeout, no garantizan que el callback se ejcute en ese tiempo exactamente, sino en cualquier momento a partir de allí, sólo cuando la cola de tareas se haya vaciado.
+
+### Callbacks
+Un callback es una función que se pasa a otra función como un argumento. Esta función se invoca, después, dentro de la función externa para completar alguna acción.
