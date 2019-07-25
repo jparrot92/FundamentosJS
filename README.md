@@ -34,6 +34,7 @@
   - [Cómo funciona el asincronismo en JavaScript](#cómo-funciona-el-asincronismo-en-javascript)
   - [Cómo funciona el tiempo en JavaScript](#cómo-funciona-el-tiempo-en-javascript)
   - [Callbacks](#callbacks)
+  - [Manejando el Orden y el Asincronismo en JavaScript](#manejando-el-orden-y-el-asincronismo-en-javascript)
   
 ## Primeros pasos en JavaScript
 
@@ -211,3 +212,6 @@ En principio, cualquier tarea que se haya delegado al navegador a través de un 
 
 ### Callbacks
 Un callback es una función que se pasa a otra función como un argumento. Esta función se invoca, después, dentro de la función externa para completar alguna acción.
+
+### Manejando el Orden y el Asincronismo en JavaScript
+Una manera de asegurar que se respete la secuencia en que hemos realizado múltiples tareas es utilizando callbacks, con lo que se ejecutará luego, en cada llamada. Lo importante es que el llamado al callback se haga a través de una función anónima. Sin embargo, al hacerlo de esta manera generamos una situación poco deseada llamada CallbackHell.
