@@ -36,6 +36,7 @@
   - [Callbacks](#callbacks)
   - [Manejando el Orden y el Asincronismo en JavaScript](#manejando-el-orden-y-el-asincronismo-en-javascript)
   - [Manejo de errores con callbacks](#manejo-de-errores-con-callbacks)
+  - [Promesas](#promesas)
   
 ## Primeros pasos en JavaScript
 
@@ -219,3 +220,23 @@ Una manera de asegurar que se respete la secuencia en que hemos realizado múlti
 
 ### Manejo de errores con callbacks
 Para solucionar el problema de quedarnos sin conexión, u otro error similar, en medio de una sucesión de callbacks utilizamos el método fail().
+
+### Promesas
+Las promesas tienen tre estados:
+* pending
+* fullfilled
+* rejected
+
+Las promesas se invocan de la siguiente forma:
+```js
+new Promise( ( resolve, reject ) => {
+  // --- llamado asíncrono
+  if( todoOK ) {
+     // -- se ejecutó el llamado exitosamente
+     resolve()
+  } else {
+     // -- hubo un error en el llamado
+     reject()
+  }
+} )
+```
