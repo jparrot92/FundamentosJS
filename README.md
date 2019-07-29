@@ -37,6 +37,7 @@
   - [Manejando el Orden y el Asincronismo en JavaScript](#manejando-el-orden-y-el-asincronismo-en-javascript)
   - [Manejo de errores con callbacks](#manejo-de-errores-con-callbacks)
   - [Promesas](#promesas)
+  - [Promesas Encadenadas](#promesas-encadenadas)
   
 ## Primeros pasos en JavaScript
 
@@ -240,3 +241,6 @@ new Promise( ( resolve, reject ) => {
   }
 } )
 ```
+
+### Promesas Encadenadas
+A diferencia de los callbacks en el CallbackHell, que terminan estando anidados unos dentro de otros, cuando se usan Promesas la ejecución de las llamadas no se hacen de manera anidada sino de manera encadenada, al mismo nivel una debajo de la otra, lo que hace que el código sea mucho más legible y mantenible.
