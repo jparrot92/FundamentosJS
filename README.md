@@ -38,6 +38,7 @@
   - [Manejo de errores con callbacks](#manejo-de-errores-con-callbacks)
   - [Promesas](#promesas)
   - [Promesas Encadenadas](#promesas-encadenadas)
+  - [Múltiples promesas en paralelo](#múltiples-promesas-en-paralelo)
   
 ## Primeros pasos en JavaScript
 
@@ -244,3 +245,6 @@ new Promise( ( resolve, reject ) => {
 
 ### Promesas Encadenadas
 A diferencia de los callbacks en el CallbackHell, que terminan estando anidados unos dentro de otros, cuando se usan Promesas la ejecución de las llamadas no se hacen de manera anidada sino de manera encadenada, al mismo nivel una debajo de la otra, lo que hace que el código sea mucho más legible y mantenible.
+
+### Múltiples promesas en paralelo
+Para hacer el llamado a múltiples promesas, nos apoyamos en un array de ids con el que luego construimos otro arreglo de Promesas, que pasaremos como parámetro a ``` Promise.all( arregloDePromesas )```, con las promesas podemos encadenar llamadas en paralelo, algo que no es posible usando callbacks.
