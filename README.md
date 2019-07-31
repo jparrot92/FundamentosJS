@@ -39,6 +39,7 @@
   - [Promesas](#promesas)
   - [Promesas Encadenadas](#promesas-encadenadas)
   - [Múltiples promesas en paralelo](#múltiples-promesas-en-paralelo)
+  - [Async-await](#async-await)
   
 ## Primeros pasos en JavaScript
 
@@ -248,3 +249,6 @@ A diferencia de los callbacks en el CallbackHell, que terminan estando anidados 
 
 ### Múltiples promesas en paralelo
 Para hacer el llamado a múltiples promesas, nos apoyamos en un array de ids con el que luego construimos otro arreglo de Promesas, que pasaremos como parámetro a ``` Promise.all( arregloDePromesas )```, con las promesas podemos encadenar llamadas en paralelo, algo que no es posible usando callbacks.
+
+### Async-await
+Async-await es la manera más simple y clara de realizar tareas asíncronas. Await detiene la ejecución del programa hasta que todas las promesas sean resueltas. Para poder utilizar esta forma, hay que colocar async antes de la definición de la función, y encerrar el llamado a Promises.all() dentro de un bloque try … catch.
