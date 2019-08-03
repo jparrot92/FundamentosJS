@@ -19,6 +19,7 @@
   - [Arrow functions](#arrow-functions)
   - [El contexto de las funciones: quién es this](#el-contexto-de-las-funciones-quién-es-this)
   - [Funciones como parámetros](#funciones-como-parámetros)
+  - [Funciones recursivas](#funciones-recursivas)
   - [Estructuras repetitivas: for](#estructuras-repetitivas-for)
   - [Estructuras repetitivas: while](#estructuras-repetitivas-while)
   - [Estructuras repetitivas: do-while](#estructuras-repetitivas-do-while)
@@ -163,6 +164,9 @@ Recuerda que dentro de la arrow function, this está haciendo referencia al espa
 
 ### Funciones como parámetros
 En JavaScript, los parámetros de funciones son por defecto undefined. De todos modos, en algunas situaciones puede ser útil colocar un valor por defecto diferente que lo evalúe como verdadero.
+
+### Funciones recursivas
+La recursividad es un concepto muy importante en cualquier lenguaje de programación. Una función recursiva es básicamente aquella que se llama (o se ejecuta) a sí misma de forma controlada, hasta que sucede una condición base.
 
 ### Estructuras repetitivas: for
 El bucle for, se utiliza para repetir una o más instrucciones un determinado número de veces.
