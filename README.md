@@ -24,6 +24,7 @@
   - [Funciones como parámetros](#funciones-como-parámetros)
   - [Funciones recursivas](#funciones-recursivas)
   - [Memoización](#memoización)
+  - [Closures](#closures)
 - [Arrays](#arrays)
   - [Introducción a arrays](#introducción-a-arrays)
   - [Filtrar un array](#filtrar-un-array)
@@ -185,6 +186,9 @@ La recursividad es un concepto muy importante en cualquier lenguaje de programac
 
 ### Memoización
 La memoización es una técnica de programación que nos permite ahorrar cómputo o procesamiento en JavaScript, al ir almacenando el resultado invariable de una función para que no sea necesario volver a ejecutar todas las instrucciones de nuevo, cuando se vuelva a llamar con los mismos parámetros. Es similar a usar memoria cache.
+
+### Closures
+Un closure, básicamente, es una función que recuerda el estado de las variables al momento de ser invocada, y conserva este estado a través de reiteradas ejecuciones. Un aspecto fundamental de los closures es que son funciones que retornan otras funciones.
 
 ## Arrays
 
