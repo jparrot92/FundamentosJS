@@ -15,14 +15,15 @@
   - [Comparaciones en JavaScript](#comparaciones-en-javascript)
 - [Estructuras de Control y Funciones](#estructuras-de-control-y-funciones)
   - [Condicionales](#condicionales)
+  - [Estructuras repetitivas: for](#estructuras-repetitivas-for)
+  - [Estructuras repetitivas: while](#estructuras-repetitivas-while)
+  - [Estructuras repetitivas: do-while](#estructuras-repetitivas-do-while)
   - [Funciones que retornan valores](#funciones-que-retornan-valores)
   - [Arrow functions](#arrow-functions)
   - [El contexto de las funciones: quién es this](#el-contexto-de-las-funciones-quién-es-this)
   - [Funciones como parámetros](#funciones-como-parámetros)
   - [Funciones recursivas](#funciones-recursivas)
-  - [Estructuras repetitivas: for](#estructuras-repetitivas-for)
-  - [Estructuras repetitivas: while](#estructuras-repetitivas-while)
-  - [Estructuras repetitivas: do-while](#estructuras-repetitivas-do-while)
+  - [Memoización](#memoización)
 - [Arrays](#arrays)
   - [Introducción a arrays](#introducción-a-arrays)
   - [Filtrar un array](#filtrar-un-array)
@@ -143,6 +144,20 @@ Empezaremos a trabajar con estructuras de control, éstas nos permiten decidir e
 
 Empezaremos con los condiconales. Los condicionales nos permiten decidir si un código se ejecuta o no. También introducimos un nuevo tipo de datos primitivos: el booleano, que determina si un valor es falso o verdadero. Mediante un condicional (if) decidiremos si se ejecuta una parte de nuestro código cuando se cumpla o no cierta condición.
 
+### Estructuras repetitivas: for
+El bucle for, se utiliza para repetir una o más instrucciones un determinado número de veces.
+
+Para escribir un bucle for se coloca la palabra for seguida de paréntesis y llaves.
+Ej. for( ){ }. Dentro de los paréntesis irán las condiciones para ejecutar el bucle, y dentro las llaves irán las instrucciones que se deben repetir.
+
+### Estructuras repetitivas: while
+While se ejecuta únicamente mientras la condición que se está evaluando es verdadera.
+
+En ocasiones nuestro código puede fallar por errores de syntaxis o errores lógicos. En caso de que quieras verificar tu código, debes utilizar un debugger. El código se detiene cada vez que lee esta palabra.
+
+### Estructuras repetitivas: do-while
+Otra estructura repetitiva es el do-while. A diferencia de la instrucción while, un bucle do…while se ejecuta una vez antes de que se evalúe la expresión condicional.
+
 ### Funciones que retornan valores
 Seguiremos trabajando con condicionales para desglosar las funciones en funciones más pequeñas que retornen un valor.
 
@@ -168,19 +183,8 @@ En JavaScript, los parámetros de funciones son por defecto undefined. De todos 
 ### Funciones recursivas
 La recursividad es un concepto muy importante en cualquier lenguaje de programación. Una función recursiva es básicamente aquella que se llama (o se ejecuta) a sí misma de forma controlada, hasta que sucede una condición base.
 
-### Estructuras repetitivas: for
-El bucle for, se utiliza para repetir una o más instrucciones un determinado número de veces.
-
-Para escribir un bucle for se coloca la palabra for seguida de paréntesis y llaves.
-Ej. for( ){ }. Dentro de los paréntesis irán las condiciones para ejecutar el bucle, y dentro las llaves irán las instrucciones que se deben repetir.
-
-### Estructuras repetitivas: while
-While se ejecuta únicamente mientras la condición que se está evaluando es verdadera.
-
-En ocasiones nuestro código puede fallar por errores de syntaxis o errores lógicos. En caso de que quieras verificar tu código, debes utilizar un debugger. El código se detiene cada vez que lee esta palabra.
-
-### Estructuras repetitivas: do-while
-Otra estructura repetitiva es el do-while. A diferencia de la instrucción while, un bucle do…while se ejecuta una vez antes de que se evalúe la expresión condicional.
+### Memoización
+La memoización es una técnica de programación que nos permite ahorrar cómputo o procesamiento en JavaScript, al ir almacenando el resultado invariable de una función para que no sea necesario volver a ejecutar todas las instrucciones de nuevo, cuando se vuelva a llamar con los mismos parámetros. Es similar a usar memoria cache.
 
 ## Arrays
 
