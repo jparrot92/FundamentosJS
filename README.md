@@ -25,6 +25,7 @@
   - [Funciones recursivas](#funciones-recursivas)
   - [Memoización](#memoización)
   - [Closures](#closures)
+  - [Estructuras de datos inmutables](#estructuras-de-datos-inmutables)
 - [Arrays](#arrays)
   - [Introducción a arrays](#introducción-a-arrays)
   - [Filtrar un array](#filtrar-un-array)
@@ -189,6 +190,9 @@ La memoización es una técnica de programación que nos permite ahorrar cómput
 
 ### Closures
 Un closure, básicamente, es una función que recuerda el estado de las variables al momento de ser invocada, y conserva este estado a través de reiteradas ejecuciones. Un aspecto fundamental de los closures es que son funciones que retornan otras funciones.
+
+### Estructuras de datos inmutables
+Las estructuras de datos inmutables forman parte de los principios de la Programación Funcional y nos permiten evitar tener efectos colaterales en los datos. En otras palabras, que hayan modificaciones en las variables sin nuestro consentimiento, produciendo comportamientos inesperados en el programa.
 
 ## Arrays
 
