@@ -26,6 +26,7 @@
   - [Memoización](#memoización)
   - [Closures](#closures)
   - [Estructuras de datos inmutables](#estructuras-de-datos-inmutables)
+  - [Cambiando de contexto al llamar a una función](#cambiando-de-contexto-al-llamar-a-una-función)
 - [Arrays](#arrays)
   - [Introducción a arrays](#introducción-a-arrays)
   - [Filtrar un array](#filtrar-un-array)
@@ -193,6 +194,15 @@ Un closure, básicamente, es una función que recuerda el estado de las variable
 
 ### Estructuras de datos inmutables
 Las estructuras de datos inmutables forman parte de los principios de la Programación Funcional y nos permiten evitar tener efectos colaterales en los datos. En otras palabras, que hayan modificaciones en las variables sin nuestro consentimiento, produciendo comportamientos inesperados en el programa.
+
+### Cambiando de contexto al llamar a una función
+El contexto (o alcance) de una función es por lo general, window. Así que en ciertos casos, cuando intentamos referirnos a this en alguna parte del código, es posible que tengamos un comportamiento inesperado, porque el contexto quizás no sea el que esperamos.
+
+Existen al menos tres maneras de cambiar el contexto de una función.
+
+* Usando el método .bind, enviamos la referencia a la función sin ejecutarla, pasando el contexto como parámetro.
+* Usando el método .call, ejecutamos inmediatamente la función con el contexto indicado
+* Usando el método .apply, es similar a .call pero los parámetros adicionales se pasan como un arreglo de valores
 
 ## Arrays
 
