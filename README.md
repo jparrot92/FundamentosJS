@@ -4,6 +4,7 @@
 - [Primeros pasos en JavaScript](#primeros-pasos-en-javascript)
   - [Variables](#variables)
   - [var, let y const](#var-let-y-const)
+  - [Cuándo utilizar el punto y coma](#cuándo-utilizar-el-punto-y-coma)
   - [Strings](#strings)
   - [Números](#números)
   - [Fechas](#fechas)
@@ -64,6 +65,11 @@
 
 La recomendación es reducir siempre al mínimo el alcance de nuestras variables, por lo que se debe usar let en lugar de var mientras sea posible.
 
+### Cuándo utilizar el punto y coma
+El punto y coma es opcional en JavaScript, excepto en algunos casos:
+* Cuando usamos varias instrucciones en una mísma línea
+* Al comenzar la próxima línea con un array
+* Al comenzar la próxima línea con un template string
 
 ### Strings
 Los strings son cadenas de texto. Para indicar que estamos usando una cadena de texto debemos de colocar las comillas simples.
